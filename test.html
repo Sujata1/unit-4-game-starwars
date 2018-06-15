@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<style>
+    .section-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align-last: center;
+        width: 200px;
+        height: 300px;
+        overflow: hidden;
+        border: black 2px solid;
+        color: white;
+        padding: 20px;
+    }
+
+
+    .one {
+        background-color: grey;
+    }
+
+    .two {
+        background-color: blue;
+    }
+    
+    .three {
+        background-color: black;
+    }
+
+    ;
+</style>
+
+<body>
+    <div class="section-1">
+
+        <div class="card one">
+            <p>
+                Character Name
+            </p>
+            <img src="https://thumbs.dreamstime.com/z/precious-ring-stone-colored-gems-isolated-white-background-vector-wedding-rings-icon-flat-design-68133633.jpg"
+                style="height: 70%" id="character" />
+
+            <p>
+                HP: 200
+            </p>
+        </div>
+
+        <div class="card two">
+            <p>
+                Character Name
+            </p>
+            <img src="https://thumbs.dreamstime.com/z/precious-ring-stone-colored-gems-isolated-white-background-vector-wedding-rings-icon-flat-design-68133633.jpg"
+                style="height: 70%" id="character" />
+
+            <p>
+                HP: 200
+            </p>
+        </div>
+
+        <div class="card three">
+            <p>
+                Character Name
+            </p>
+            <img src="https://thumbs.dreamstime.com/z/precious-ring-stone-colored-gems-isolated-white-background-vector-wedding-rings-icon-flat-design-68133633.jpg"
+                style="height: 70%" id="character" />
+
+            <p>
+                HP: 200
+            </p>
+        </div>
+
+    </div>
+
+    <hr>
+    <p>The first section ends here and the second begins below</p>
+    <hr>
+
+    <div class="section-2">
+
+    </div>
+
+    <script type="text/javascript">
+        $('.card').on('click',function(){
+            $('.section-2').append($(this)); 
+        })
+    
+    </script>
+
+
+</body>
+
+</html>
+
+
+Add CommentCollap

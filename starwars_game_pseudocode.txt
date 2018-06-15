@@ -1,0 +1,36 @@
+Pick character Fight with Eneny characters
+Display four players at the top of screen
+
+Click Player
+	Move player clicked to Your Character div
+	Move rest to Enemies Available to Attack div
+
+Click Player from enemy
+		Move player to Defender div
+
+Click Attack
+	Allow Attack only if both My player and defender are selected
+	Reduce My character HP by defnder's Counter Attack Points
+	Reduce Defender HP by My character's Attack points
+	Increase My Character's Attack power by BAse Attack Power
+	Display revised Hp points for both
+	Display running update at the bottom
+	
+	if My charater's HP <=0
+	      Display Lost message
+	      Display Restart button
+	If Defender's Hp <=0
+		if no enemies left to defeat then
+			Show Win Message
+			Display Restart button
+	
+	If both My character's and Defender's Hp are greater than 0
+		Display running update
+
+Click Restart
+	Initailize all variables
+	Move characters to Top of fthe screen.			
+
+
+
+

@@ -1,0 +1,97 @@
+body{
+    background: url("../images/SW-backgroud.jpg") no-repeat;
+    background-size: cover;
+}
+
+div{
+    display: inline-flex;
+}
+
+#enemies img{
+    background-color: red;
+}
+
+#YourCharacter img{
+    background-color: green;
+}
+
+#obi{
+    background-color: red;
+}
+
+#luke{
+    background-color: green;
+}
+
+#darth{
+    background-color: blue;
+}
+
+#maul{
+    background-color: rgb(117, 9, 9);
+}
+
+.displayHP{
+    margin-top: 4px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border: black 2px solid;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+.enemyChar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border: black 2px solid;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+.yourChar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border: black 2px solid;
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+#reset{
+    display: none;
+}
+
+.resultText{
+    font-size: 20px;
+    margin: 10px;
+}
+h2, #myChar-result, #defender-result{
+    color: white;
+}
+
+
+h1{
+    margin-bottom: 5px;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+        <title>Starwars RPG!!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+        <h2>Star Wars RPG Game!!</h2>
+        <div id="characters">
+
+                <div class="card" id="obi">
+                        <p class="displayN">Obi</p>
+                        <img src="assets/images/obi.png" style=" height: 70%" id="character" />
+                        <p id="obi-hp" class="displayHP">120</p>
+                </div>
+                <div class="card" id="luke">
+                        <p>luke</p>
+                        <img src="assets/images/luke-skywalker.jpg" style=" height: 70%" id="character" />
+                        <p id="luke-hp" class="displayHP">145</p>
+                </div>
+
+                <div class="card" id="darth">
+                        <p>darth</p>
+                        <img src="assets/images/darth-sidious.png" style=" height: 70%" id="character" />
+                        <p id="darth-hp" class="displayHP">110</p>
+                </div>
+
+                <div class="card" id="maul">
+                        <p>maul</p>
+                        <img src="assets/images/Darth_Maul.jpg" style=" height: 70%" id="character" />
+                        <p id="maul-hp" class="displayHP">200</p>
+                </div>
+        </div>
+        <h2>Your Characters</h2>
+        <div id="YourCharacter">
+
+        </div>
+
+        <h2>Enemies Available to Attack</h2>
+        <div id="enemies">
+
+        </div>
+
+        <h2>Fight Section</h2>
+        <div id="fightSection">
+        </div>
+
+
+        <div id="attack">
+                <button>Attack</button>
+        </div>
+
+        <h2>Defender</h2>
+        <div id="defender">
+        </div>
+        <br>
+        <p id="myChar-result" class="resultText"></p>
+        <p id="defender-result" class="resultText"></p>
+
+
+        <div id="reset">
+                <button>Restart</button>
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

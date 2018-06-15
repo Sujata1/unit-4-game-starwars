@@ -1,0 +1,54 @@
+Pick character Fight with Eneny characters
+
+Four characters on screen
+If you click on anyone of the character that becomes Your Character and remainder becomes Enemies you have to defeat
+
+When click on say Obi.
+Obi becomes Your Chracter
+Rest all become Enemies available to Attack
+
+Goal of game is to defeat all enemies by fighting them
+
+When you fight them your goal is to reduce their HP to zero or below and 
+at any point if your Hp is reduced to zero or below, you lose the game
+
+Click any of fcharacters in Enemy Available to Attack, will move character to Defender area
+
+Fight by using Attack button
+
+When Attack button is clicked
+
+You get ongoing display
+You attacked Darth Maul for 8 damages
+Darth Maul attacked you back for 25 damages
+
+I lost 25 HP and Enemy lost 8 HP
+
+Dartt Maul's attached damage is always 25 damanges
+While
+Mine increases with multiplier of 8 
+
+I lost
+Display
+
+You are defeated..  Game Over!!!!
+
+Show Restart button
+
+
+I Win
+You have deeated Luke Skywalker. You can choose to fight another enemy
+
+Luke Skywaler Image is removed
+
+If you click attack wihout enemy in defender (Show message "No enemy here")
+
+Pick Darth Stdious
+If I win, the game remebers my Attack power and increases my attack power by 8
+
+Win
+Display
+You Won!!! Game Over!!!
+Show Restart button
+
+
